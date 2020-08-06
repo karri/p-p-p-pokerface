@@ -7,7 +7,7 @@
   )
 
 (defn rank [card]
-  (let [rank-map {\T 10 \J 11 \Q 12 \K 13 \A 14}
+  (let [rank-map {\T 10 \J 11 \Q 12 \K 13 \A 15}
         [r _] card ]
     ( if (Character/isDigit r)
       (Integer/valueOf (str r))
